@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3DQIY3Ztn9JoD5/HX/8EQwyHD+BR5+RKhBIO+1flonQ=",
+  "Hash": "s20WBhcjFonK1i45Gf6+mcpcWx1DQLqeabSFSvjqw7I=",
   "Source": "OROApp",
   "BasePath": "_content/OROApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "OROApp\\wwwroot",
       "Source": "OROApp",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\OROApp.styles.css",
+      "Identity": "C:\\Users\\Default\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\OROApp.styles.css",
       "SourceId": "OROApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "OROApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hofla\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\OROApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Default\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\OROApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OROApp.bundle.scp.css",
+      "Identity": "C:\\Users\\Default\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OROApp.bundle.scp.css",
       "SourceId": "OROApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "OROApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\hofla\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OROApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Default\\OROApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OROApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\css\\site.css",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\hofla\\OROApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Default\\OROApp\\wwwroot\\favicon.ico",
       "SourceId": "OROApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\hofla\\OROApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Default\\OROApp\\wwwroot\\",
       "BasePath": "_content/OROApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

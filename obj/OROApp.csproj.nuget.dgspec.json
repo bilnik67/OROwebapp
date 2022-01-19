@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hofla\\OROApp\\OROApp.csproj": {}
+    "C:\\Users\\Default\\OROApp\\OROApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hofla\\OROApp\\OROApp.csproj": {
+    "C:\\Users\\Default\\OROApp\\OROApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hofla\\OROApp\\OROApp.csproj",
+        "projectUniqueName": "C:\\Users\\Default\\OROApp\\OROApp.csproj",
         "projectName": "OROApp",
-        "projectPath": "C:\\Users\\hofla\\OROApp\\OROApp.csproj",
+        "projectPath": "C:\\Users\\Default\\OROApp\\OROApp.csproj",
         "packagesPath": "C:\\Users\\hofla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hofla\\OROApp\\obj\\",
+        "outputPath": "C:\\Users\\Default\\OROApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
