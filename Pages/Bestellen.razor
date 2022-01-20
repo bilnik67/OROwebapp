@@ -1,0 +1,28 @@
+@page "/Bestel"
+
+<h1>@currentHeading</h1>
+
+<hr /> 
+
+<p>
+<label>
+    New title
+    <input @bind="newHeading" />
+</label>
+<button @onclick="UpdateHeading">
+    Update heading
+</button>
+</p>
+
+
+@code{
+
+
+    private string currentHeading = "Initial heading";
+    private string? newHeading;
+
+     private void UpdateHeading()
+    {
+        currentHeading = $"{newHeading}!!!";
+    }
+}
