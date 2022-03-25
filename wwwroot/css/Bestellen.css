@@ -1,0 +1,317 @@
+﻿/*header*/
+
+* {
+   
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box {
+    background-color: #f3b229;
+    max-height: 160vh;
+    justify-content: space-between;
+    display: flex;
+}
+
+/**de bovenbalk van het bestelmenu**/
+.bovenbalk {
+    display: flex;
+    background-color: #5e2859;
+    height: 8.5rem;
+}
+
+.btn1 {
+    display: inline-block;
+    background-color: #f3b229;
+    color: black;
+    font-size: 40px;
+    border: 3px solid #f0ed46;
+    position: center;
+    height: 60%;
+    width: 39%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+    .btn1 a {
+        background-color: #f3b229;
+    }
+
+.buttondranken {
+    display: inline-block;
+    background-color: #f3b229;
+  
+   
+    height: 100%;
+    width: 100%;
+}
+
+.btn2 {
+    display: inline-block;
+    background-color: rgb(0, 119, 255);
+    color: #fff;
+    font-size: 40px;
+    border: 3px solid rgb(108, 172, 245);
+    position: center;
+    height: 60%;
+    width: 39%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+    .btn2 a {
+        background-color: rgb(0, 119, 255);
+    }
+
+.buttoneten {
+    background-color: rgb(0, 119, 255);
+   
+    height: 100%;
+    width: 100%;
+}
+
+.dem0 {
+    display: inline-block;
+    align-items: center;
+    background-color: #5e2859;
+    height: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.dem1 {
+    background-color: #5e2859;
+    height: 105%;
+    width: 105%;
+    margin-top: 5%;
+}
+
+.dem2 {
+    display: flex;
+    background-color: #5e2859;
+    height: 105%;
+    width: 105%;
+}
+
+.demo {
+    background-color: #f3b229;
+    color: black;
+    border: 3px solid #f0ed46;
+    height: 60%;
+    margin-top: 2%;
+}
+
+.demo2 {
+    background-color: #f3b229;
+    color: black;
+    border: 3px solid #f0ed46;
+    height: 60%;
+    margin-top: 2%;
+}
+
+.middenstuk {
+    display: flex;
+    width: 100%;
+}
+
+.bestellen {
+    display: flex;
+    background-color: #fff;
+    height: 100%;
+    width: 65%;
+}
+
+.dranken {
+    display: none;
+}
+
+.l1 {
+    position: relative;
+    margin-top: 0%;
+    margin-left: 12%;
+}
+
+    .l1 img {
+        border: 3px solid #f0ed46;
+        padding: 4rem 6rem;
+        border-radius: 20px;
+    }
+
+.l2 {
+    position: relative;
+    margin-top: 0.35%;
+}
+
+    .l2 img {
+        border: 3px solid #f0ed46;
+        padding: 4rem 6rem;
+        border-radius: 20px;
+    }
+
+.eten {
+    margin-top: 0;
+    display: flex;
+}
+
+.l3 {
+    position: relative;
+    margin-top: 0.35%;
+    margin-left: 12%;
+}
+
+    .l3 img {
+        border: 3px solid rgb(11, 67, 131);
+        padding: 4rem 6rem;
+        border-radius: 20px;
+    }
+
+.l4 {
+    position: relative;
+    margin-top: 0.35%;
+}
+
+    .l4 img {
+        border: 3px solid rgb(11, 67, 131);
+        padding: 4rem 6rem;
+        border-radius: 20px;
+    }
+
+.knopd {
+    opacity: 100;
+    margin-top: 5%;
+    width: 80%;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.knop {
+    opacity: 100;
+    margin-top: 5%;
+    width: 80%;
+    cursor: pointer;
+}
+
+.bestelling {
+    display: inline-block;
+    background-color: #f3b229;
+    max-height: 50%;
+    width: 35%;
+    border: 3px solid #f0ed46;
+    margin-top: 1.5%;
+    margin-right: 8%;
+}
+
+    .bestelling h1 {
+        background-color: #f3b229;
+        margin-top: 2%;
+        margin-left: 3%;
+        font-size: 180%;
+    }
+
+    .bestelling p {
+        color: #fff;
+        background-color: rgb(0, 119, 255);
+    }
+
+.onderbalk {
+    display: flex;
+    max-height: 9.5rem;
+}
+
+.profiel {
+    display: flex;
+    width: 70%;
+}
+
+    .profiel img {
+        margin-top: 20%;
+        margin-left: 75%;
+        max-width: 85%;
+        max-height: 85%;
+    }
+
+    .profiel h1 {
+        font-size: x-large;
+        margin-top: 8%;
+        margin-left: 12%;
+    }
+
+.bestelknop {
+    display: inline-block;
+    margin-top: 5%;
+    height: 5rem;
+    width: 30%;
+    margin-right: 10%;
+}
+
+.volgende {
+    color: #000;
+    text-align: center;
+}
+
+    .volgende a {
+        background-color: #f3b229;
+        border: 3px solid #f0ed46;
+        font-size: larger;
+        padding: 2rem 6rem;
+    }
+
+.keuze {
+    background-color: #f3b229;
+}
+
+    .keuze p {
+        margin-top: 3%;
+    }
+
+.keuzebox {
+    max-height: auto;
+    max-width: auto;
+    cursor: pointer;
+}
+
+    .keuzebox img {
+        max-height: 25%;
+        max-width: 25%;
+        margin-left: 5%;
+    }
+
+.bestellijst {
+    display: flex;
+    height: 600px;
+}
+
+    .bestellijst h1 {
+        background-color: #f3b229;
+        font-size: x-large;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+.ontbijt {
+    display: inline-block;
+    background-color: #f3b229;
+    width: 25%;
+    border: 3px solid #f0ed46;
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+.lunch {
+    display: inline-block;
+    background-color: #f3b229;
+    width: 25%;
+    border: 3px solid #f0ed46;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
+.avondeten {
+    display: inline-block;
+    background-color: #f3b229;
+    width: 25%;
+    border: 3px solid #f0ed46;
+    margin-top: 3%;
+    margin-left: 4%;
+}

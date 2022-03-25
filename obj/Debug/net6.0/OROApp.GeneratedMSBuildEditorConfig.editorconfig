@@ -8,45 +8,73 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = OROApp
 build_property.RootNamespace = OROApp
-build_property.ProjectDir = C:\Users\Default\OROApp\
+build_property.ProjectDir = C:\Users\hofla\Documents\OROAPP DB\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Default\OROApp
+build_property.MSBuildProjectDirectory = C:\Users\hofla\Documents\OROAPP DB
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Default/OROApp/Pages/Bestellen.razor]
+[C:/Users/hofla/Documents/OROAPP DB/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hofla/Documents/OROAPP DB/Pages/AvondEten.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXZvbmRFdGVuLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hofla/Documents/OROAPP DB/Pages/Bestellen.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVzdGVsbGVuLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/OROApp/Pages/Index.razor]
+[C:/Users/hofla/Documents/OROAPP DB/Pages/Bestellingen.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVzdGVsbGluZ2VuLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hofla/Documents/OROAPP DB/Pages/Bestellinggelukt.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmVzdGVsbGluZ2dlbHVrdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hofla/Documents/OROAPP DB/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/OROApp/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/hofla/Documents/OROAPP DB/Pages/InlogGelukt.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5sb2dHZWx1a3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/OROApp/_Imports.razor]
+[C:/Users/hofla/Documents/OROAPP DB/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hofla/Documents/OROAPP DB/Pages/Lunch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTHVuY2gucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hofla/Documents/OROAPP DB/Pages/Mijnbestelling.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWlqbmJlc3RlbGxpbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hofla/Documents/OROAPP DB/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/OROApp/Shared/MainLayout.razor]
+[C:/Users/hofla/Documents/OROAPP DB/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9n89pbkhxz
 
-[C:/Users/Default/OROApp/Shared/NavMenu.razor]
+[C:/Users/hofla/Documents/OROAPP DB/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-i82cmbgl8i
 
-[C:/Users/Default/OROApp/Pages/Error.cshtml]
+[C:/Users/hofla/Documents/OROAPP DB/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/OROApp/Pages/_Host.cshtml]
+[C:/Users/hofla/Documents/OROAPP DB/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Default/OROApp/Pages/_Layout.cshtml]
+[C:/Users/hofla/Documents/OROAPP DB/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

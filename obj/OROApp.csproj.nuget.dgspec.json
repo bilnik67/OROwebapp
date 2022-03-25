@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Default\\OROApp\\OROApp.csproj": {}
+    "C:\\Users\\hofla\\Documents\\OROAPP DB\\OROApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Default\\OROApp\\OROApp.csproj": {
+    "C:\\Users\\hofla\\Documents\\OROAPP DB\\OROApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Default\\OROApp\\OROApp.csproj",
+        "projectUniqueName": "C:\\Users\\hofla\\Documents\\OROAPP DB\\OROApp.csproj",
         "projectName": "OROApp",
-        "projectPath": "C:\\Users\\Default\\OROApp\\OROApp.csproj",
+        "projectPath": "C:\\Users\\hofla\\Documents\\OROAPP DB\\OROApp.csproj",
         "packagesPath": "C:\\Users\\hofla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Default\\OROApp\\obj\\",
+        "outputPath": "C:\\Users\\hofla\\Documents\\OROAPP DB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -44,6 +44,40 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

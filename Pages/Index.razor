@@ -13,6 +13,47 @@
 <p>@Dagdeel</p>
 
 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" consent="with=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>Wie ben ik?</title>
+    <link rel="icon" href="images/image-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <section class="box">
+        <div class="userlist1">
+            <a href="login" id="user0"><img src="css/images/user1.jfif"></a>
+            <a href="login" id="user1"><img src="css/images/user2.jfif"></a>
+        </div>
+        <div class="userlist2">
+            <a href="login" id="user2"><img src="css/images/user3.jfif"></a>
+            <a href="login" id="user3"><img src="css/images/user4.jfif"></a>
+        </div>
+        <div class="userlist3">
+            <a href="login" id="user4"><img src="css/images/user5.jfif"></a>
+            <a href="login" id="user5"><img src="css/images/user6.jfif"></a>
+        </div>
+        <div class="userlist4">
+            <a href="login" id="user6"><img src="css/images/user7.jfif"></a>
+            <a href="login" id="user7"><img src="css/images/user8.jfif"></a>
+        </div>
+        <div class="userlist5">
+            <a href="login" id="user8"><img src="css/images/user9.jfif"></a>
+            <a href="login" id="user9"><img src="css/images/user10.jfif"></a>
+        </div>
+    </section>
+
+</body>
+</html>
 
 @code{
 
@@ -22,49 +63,49 @@
     Timer aTimer;
     private string _displaydate;
     string Dagdeel;
+    public int test = 1;
 
     protected override void OnInitialized()
     {
-    aTimer = new Timer(Tick, null, 0, 1000);
+        aTimer = new Timer(Tick, null, 0, 1000);
 
     }
-
     private void Tick(object _)
     {
-    theTime = DateTime.Now.ToLongTimeString();
-    InvokeAsync(StateHasChanged);
-    if (DateTime.Now.Hour < 12)
-    {
-    Dagdeel = "Goedemorgen!";
-    }
-    else if (DateTime.Now.Hour > 11 && DateTime.Now.Hour < 18)
-    {
-    Dagdeel = "Goedemiddag!";
-    }
-    else if (DateTime.Now.Hour > 17 && DateTime.Now.Hour < 24)
-    {
-    Dagdeel = "Goedeavond!";
-    }
-    else if (DateTime.Now.Hour > 0 && DateTime.Now.Hour < 6)
-    {
-    Dagdeel = "Goedenacht!";
-    }
-    else if (DateTime.Now.Hour == 0 )
-    {
-    Dagdeel = "Goedenacht!";
-    }
-    else
-    {
-    Dagdeel = "Error!";
-    }
-    
+        theTime = DateTime.Now.ToLongTimeString();
+        InvokeAsync(StateHasChanged);
+        if (DateTime.Now.Hour < 12)
+        {
+            Dagdeel = "Goedemorgen!";
+        }
+        else if (DateTime.Now.Hour > 11 && DateTime.Now.Hour < 18)
+        {
+            Dagdeel = "Goedemiddag!";
+        }
+        else if (DateTime.Now.Hour > 17 && DateTime.Now.Hour < 24)
+        {
+            Dagdeel = "Goedeavond!";
+        }
+        else if (DateTime.Now.Hour > 0 && DateTime.Now.Hour < 6)
+        {
+            Dagdeel = "Goedenacht!";
+        }
+        else if (DateTime.Now.Hour == 0)
+        {
+            Dagdeel = "Goedenacht!";
+        }
+        else
+        {
+            Dagdeel = "Error!";
+        }
+
     }
     public void Dispose()
     {
-    aTimer?.Dispose();
+        aTimer?.Dispose();
     }
 
 
 
-    }
+}
 

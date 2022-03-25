@@ -1,0 +1,137 @@
+﻿@page "/Bestellingen"
+@inject Services.IOROappService oroappservice
+@using Models
+
+<h3>Login</h3>
+<div class="p-4">
+    <div class="col-md-3">
+        <label class="form-label">Gebruiker: </label>
+        <input type="text" class="form-control" id="Gebruiker" @bind="Gebruiker" placeholder="Gebruikersnaam" />
+
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Wachtwoord: </label>
+        <input type="password" class="form-control" id="Gebruiker" @bind="Wachtwoord" placeholder="Wachtwoord" />
+
+    </div>
+    <div class="col-md-3">
+        <p style="color:@Color"><b>@Text</b></p>
+    </div>
+    <button type="submit" class="btn btn-primary" @onclick="Submit">Log in</button>
+</div>
+
+
+
+@if(login == true)
+{
+<h2>Bestellijst:</h2>
+
+<div class="row">
+    <div class="col-md-8">
+
+
+
+
+        <table class="table">
+            <thead class="table-light">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Naam</th>
+                    <th scope="col">Achternaam</th>
+                    <th scope="col">Bestelling</th>
+                    <th scope="col">Datum</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var data in users)
+                {
+
+
+                    <tr>
+                        <th>@data.Id</th>
+                        <td>@data.Naam</td>
+                        <td>@data.Achternaam</td>
+                        <td>@data.Bestelling</td>
+                        <td>@data.Datum</td>
+                        <td>
+                            <button class="btn btn-danger" @onclick="@(async () => await VerwijderBestelling(data.Id))">Verwijder</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<h2>LeveranciersLijst:</h2>
+
+<div class="row">
+    <div class="col-md-8">
+
+        <table class="table">
+            <thead class="table-light">
+                <tr>
+                    <th scope="col">Bestelling</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var data in users)
+                {
+                    <tr>
+                        <td>@data.Bestelling</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+}
+
+@code {
+    private string Gebruiker { get; set; }
+    private string Wachtwoord { get; set; }
+    bool login = false;
+
+
+    string Color = "Black";
+    string Text = "";
+
+    private void Submit()
+    {
+        if (Gebruiker == "oroadmin" && Wachtwoord == "test")
+        {
+            Color = "green";
+            Text = "Welkom";
+            login = true;
+        }
+        else
+        {
+            Color = "red";
+            Text = "Verkeerd wachtwoord of gebruikersnaam";
+        }
+    }
+
+    List<UserModel> users = new List<UserModel>();
+    UserModel userModel = new UserModel();
+
+
+
+    private async Task LoadData()
+    {
+        users = await oroappservice.GetUserModels();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await oroappservice.GetUserModels();
+
+    }
+    public async Task VerwijderBestelling(int bestellingID)
+    {
+        await oroappservice.DeleteBestelling(bestellingID);
+        await LoadData();
+    }
+
+}

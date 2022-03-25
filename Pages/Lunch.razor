@@ -1,0 +1,140 @@
+﻿@page "/Lunch"
+@inject Services.IOROappService oroappservice
+@inject IJSRuntime JsRuntime
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" consent="with=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>Lunch</title>
+    <link rel="icon" href="../images/user-img.png">
+    <link rel="stylesheet" href="css/Bestellen.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--bovenbalk-->
+    <section class="bovenbalk">
+        <div class="btn1" onclick="dranken()">
+            <button class="buttondranken"  @onclick="CallJSMethod">DRANKEN</button>
+        </div>
+        <div class="btn2" onclick="eten()">
+            <button class="buttoneten"  @onclick="CallJSMethod2">LUNCH</button>
+        </div>
+
+
+    </section>
+
+    <!--middenstuk-->
+    <section class="middenstuk">
+        <section class="bestellen">
+            <section class="dranken" id="dranken">
+                <div class="l1">
+                    <img class="knopd" src="css/images/koffie.png" onclick="gekozen(0)">
+                    <img class="knopd" src="css/images/limonade.png" onclick="gekozen(2)">
+                    <img class="knopd" src="css/images/melk.png" onclick="gekozen(4)">
+                </div>
+                <div class="l2">
+                    <img class="knopd" src="css/images/thee.png" onclick="gekozen(1)">
+                    <img class="knopd" src="css/images/sinaasappel.png" onclick="gekozen(3)">
+                    <img class="knopd" src="css/images/water.png" onclick="gekozen(5)">
+                </div>
+            </section>
+
+            <section class="eten" id="eten">
+                <div class="l3">
+                    <img class="knop" src="css/images/boterhammen.png" onclick="gekozen(6)">
+                    <img class="knop" src="css/images/sandwich.png" onclick="gekozen(8)">
+                    <img class="knop" src="css/images/fruit.png" onclick="gekozen(10)">
+                </div>
+                <div class="l4">
+                    <img class="knop" src="css/images/broodjes.png" onclick="gekozen(7)">
+                    <img class="knop" src="css/images/salade.png" onclick="gekozen(9)">
+                    <img class="knop" src="css/images/yoghurt.png" onclick="gekozen(11)">
+                </div>
+            </section>
+        </section>
+
+        <section class="bestelling">
+            <h1>MIJN BESTELLING</h1>
+            <div class="keuze">
+                <div class="keuzebox">
+                    <p id=0 onclick="verwijder(0)"></p>
+                </div>
+                <div class="keuzebox">
+                    <p id=1 onclick="verwijder(1)"></p>
+                </div>
+                <div class="keuzebox">
+                    <p id=2 onclick="verwijder(2)"></p>
+                </div>
+                <div class="keuzebox">
+                    <p id=3 onclick="verwijder(3)"></p>
+                </div>
+                <div class="keuzebox">
+                    <p id=4 onclick="verwijder(4)"></p>
+                </div>
+                <div class="keuzebox">
+                    <p id=5 onclick="verwijder(5)"></p>
+                </div>
+                <div class="keuzebox">
+                    <p id=6 onclick="verwijder(6)"></p>
+                </div>
+                <div class="keuzebox">
+                    <p id=7 onclick="verwijder(7)"></p>
+                </div>
+                <div class="keuzebox">
+                    <p id=8 onclick="verwijder(8)"></p>
+                </div>
+                <div class="keuzebox">
+                    <p id=9 onclick="verwijder(9)"></p>
+                </div>
+                <div class="keuzebox">
+                    <p id=10 onclick="verwijder(10)"></p>
+                </div>
+                <div class="keuzebox">
+                    <p id=11 onclick="verwijder(11)"></p>
+                </div>
+            </div>
+
+            
+
+        </section>
+
+    </section>
+    <section class="onderbalk">
+        
+        <section class="bestelknop">
+            <div class="volgende">
+                <a href="avondeten">VOLGENDE</a>
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
+
+@code {
+
+
+    private async Task CallJSMethod()
+    {
+        JsRuntime.InvokeVoidAsync("dranken2");
+    }
+    private async Task CallJSMethod2()
+    {
+        JsRuntime.InvokeVoidAsync("eten2");
+    }
+    private async Task CallJSMethodgekozen()
+    {
+        JsRuntime.InvokeVoidAsync("gekozen");
+    }
+    private async Task CallJSMethodverwijder()
+    {
+        JsRuntime.InvokeVoidAsync("verwijder");
+    }
+}

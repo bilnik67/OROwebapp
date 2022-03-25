@@ -1,0 +1,159 @@
+﻿/*header*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 10000px) {
+    .box {
+        background-color: #f3b229;
+        height: 75vmin;
+        justify-content: space-between;
+        display: flex;
+    }
+
+
+    @media (max-width: 3840px) {
+        .btn a {
+            font-size: 400%;
+        }
+    }
+
+    @media (max-width: 1920px) {
+        .btn a {
+            font-size: 190%;
+        }
+    }
+
+    @media (max-width: 1440px) {
+        .btn a {
+            font-size: 140%;
+        }
+    }
+    /** userpage **/
+    
+        .userlist1 img {
+            max-height: 70%;
+            max-width: 70%;
+            display: flex;
+            align-items: center;
+            border-radius: 10000px;
+            margin-top: 30%;
+            margin-left: 15%;
+           
+        }
+
+    .userlist2 img {
+        max-height: 70%;
+        max-width: 70%;
+        display: flex;
+        align-items: center;
+        border-radius: 10000px;
+        margin-top: 30%;
+        margin-left: 15%;
+    }
+
+    .userlist3 img {
+        max-height: 70%;
+        max-width: 70%;
+        display: flex;
+        align-items: center;
+        border-radius: 10000px;
+        margin-top: 30%;
+        margin-left: 15%;
+    }
+
+    .userlist4 img {
+        max-height: 70%;
+        max-width: 70%;
+        display: flex;
+        align-items: center;
+        border-radius: 10000px;
+        margin-top: 30%;
+        margin-left: 15%;
+    }
+
+    .userlist5 img {
+        max-height: 70%;
+        max-width: 70%;
+        display: flex;
+        align-items: center;
+        border-radius: 10000px;
+        margin-top: 30%;
+        margin-left: 15%;
+    }
+
+    /** login page **/
+    .boxU {
+        background-color: #f3b229;
+        max-height: 100%;
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+    .user {
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+        .user img {
+            border-radius: 10000px;
+            max-height: 85%;
+            max-width: 85%;
+            display: flex;
+            align-items: center;
+            margin-top: 10%;
+            margin-left: -30%;
+        }
+
+        .user h1 {
+            display: flex;
+            align-items: center;
+            font-size: 120px;
+            margin-top: -4%;
+            margin-left: -20%;
+        }
+
+    .pwd {
+        background-color: #f3b229;
+        justify-content: space-evenly;
+        display: flex;
+    }
+
+        .pwd a {
+            cursor: default;
+        }
+
+    .pwde img {
+        max-height: 80%;
+        max-width: 80%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+
+    .pwdt img {
+        max-height: 80%;
+        max-width: 80%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8%;
+    }
+
+    .pwdd img {
+        max-height: 80%;
+        max-width: 80%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8%;
+    }
+
+    .pwdv img {
+        max-height: 80%;
+        max-width: 80%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10%;
+    }
+}

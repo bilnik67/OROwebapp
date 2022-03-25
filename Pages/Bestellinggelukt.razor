@@ -1,0 +1,48 @@
+﻿@page "/Bestellinggelukt"
+@inject Services.IOROappService oroappservice
+@using Models
+
+<div class="container">
+    <div class="row">
+        <EditForm Model=@userModel OnValidSubmit="AddRecord">
+            <div class="com-md-8">
+                <div class="mb-3">
+                    <label for="Naam" class="form-label">Naam</label>
+                    <input type="text" @bind-value=userModel.Naam class="form-control" id="Naam" placeholder="Naam">
+                </div>
+                <div class="mb-3">
+                    <label for="Achternaam" class="form-label">Achternaam</label>
+                    <input type="text" @bind-value=userModel.Achternaam class="form-control" id="Achternaam" placeholder="Achternaam">
+                </div>
+                <div class="mb-3">
+                    <label for="Bestelling" class="form-label">Bestelling</label>
+                    <input type="text" @bind-value=userModel.Bestelling class="form-control" id="Bestelling" placeholder="Bestelling">
+                </div>
+            </div>
+            <input type="submit" class="btn btn-success" value="Bestelling toevoegen" />
+        </EditForm>
+    </div>
+</div>
+@code
+{
+    UserModel userModel = new UserModel();
+    private string _Displaydate;
+
+    protected override void OnInitialized()
+    {
+        _Displaydate = DateTime.Now.ToString();
+        userModel.Datum = _Displaydate;
+    }
+   
+
+
+    public async Task AddRecord()
+    {
+        if (userModel.Naam != null && userModel.Bestelling != null && userModel.Achternaam != null && userModel.Datum != null)
+        {
+            await oroappservice.VoegnieuweBestelling(userModel);
+            userModel = new UserModel();
+        }
+
+    }
+}
