@@ -1,4 +1,4 @@
-Technasium MasterTest
+<h1 align="center">Technasium MasterTest
 <hr>
 School "Technasium" graduation project.
 <br>
@@ -6,4 +6,8 @@ Build a webapp for company ORO
 <br>
 https://www.oro.nl/
 <br>
-
+  
+#### Programmers 🤖+
+- [Billy](https://github.com/bilnik67)
+- [Bas](https://github.com/Bash-04)
+- [Yoyo](https://github.com/Yoyoochenn)
