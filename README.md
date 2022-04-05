@@ -1,13 +1,14 @@
 <h1 align="center">Technasium MasterTest
 <hr>
-School "Technasium" graduation project.
+
+<h2 align="left">School "Technasium" graduation project.
 <br>
-Build a webapp for company ORO
+Build a webapp for company ORO!
 <br>
 https://www.oro.nl/
 <br>
   
-#### Programmers 🤖+
+#### Programmers 🤖
 - [Billy](https://github.com/bilnik67)
 - [Bas](https://github.com/Bash-04)
 - [Yoyo](https://github.com/Yoyoochenn)
