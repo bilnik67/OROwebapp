@@ -2,7 +2,7 @@
 <hr>
 <h2 align="left">School "Technasium" graduation project.
 <br>
-Build a webapp for company ORO!
+Build a webapp for the company ORO!
 <br>
 https://www.oro.nl/
 <br>
